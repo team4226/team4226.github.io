@@ -10,7 +10,7 @@
 <link rel="stylesheet" type="text/css" href="robotics.css"/>
 <link rel="icon" type="image/png" href="images/gear.png"/>
 </head>
-<body onload="init();" class="preload">
+<body onload="init();">
 <div id="title">
 <div id="name">Huskie Robotics</div>
 <a href="/robo/index.html"><img id="teamLogo" src="images/flatLogo.png" /></a>
