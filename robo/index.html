@@ -1,0 +1,58 @@
+<!Doctype HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Husky Robotics</title>
+<script type="text/javascript" src="jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="jquery.masonry.min.js"></script>
+<script type="text/javascript" src="jquery.tweet.js"></script>
+<script type="text/javascript" src="robotics.js"></script>
+<link rel="stylesheet" type="text/css" href="robotics.css"/>
+<link rel="icon" type="image/png" href="images/gear.png"/>
+</head>
+<body onload="init();" class="preload">
+<div id="title">
+<div id="name">Huskie Robotics</div>
+<a href="/robo/index.html"><img id="teamLogo" src="images/flatLogo.png" /></a>
+<div id="mainMenu">
+<span id="leftMenu">
+<span class="menuItems itemsLeft"><a class="noUnderline" href="aboutfirst.html">About&nbsp;<i>FIRST</i></a></span>
+<span class="menuItems itemsLeft"><a class="noUnderline" href="aboutus.html">About&nbsp;Us</a></span>
+</span>
+<span id="number">Team 4226</span>
+<span id="rightMenu">
+<span class="menuItems itemsRight"><a class="noUnderline" href="gallery.html">Gallery</a></span>
+<span class="menuItems itemsRight"><a class="noUnderline" href="sponsors.html">Our&nbsp;Sponsors</a></span>
+</span>
+</div>
+</div>
+
+<div id="content">
+<div id="gears">
+<div id="gear1" onclick="gearMove(this);" class="gearDiv">
+<img class="gearImg" src="images/frcGear.png"/>
+</div>
+<div onclick="gearMove(this);" id="gear2" class="gearDiv">
+<img class="gearImg" id="sponsorGear" src="images/jcpGear.jpg" onload="t=setTimeout(sponsorSwitch, 5000);"/>
+</div>
+<div id="gear3" class="gearDiv">
+<a href="http://twitter.com/team4226"><img class="gearImg" src="images/twitterGear.png" /></a>
+</div>
+<div id="gear4" onclick="gearMove(this);" class="gearDiv">
+<img class="gearImg" src="images/teamGear.png"/>
+</div>
+
+<div id="text">
+<div class="infoText" id="aboutUs">
+Team 4226 is a FIRST Robotics team based in Albany, Minnesota whose rookie year was in 2012. After exceeding expectations with a powerful defensive robot, they received the Rookie All Star award and advanced to the national competition in Saint Louis, Missouri. The team has garnered the support of many local businesses with monetary, material, and labor support.
+</div>
+
+<div class="infoText" id="aboutFirst">
+In the words of its founder, the goal of <i>FIRST</i> (For Inspiration and Recognition of Science and Technology) is "to transform our culture by creating a world where science and technology are celebrated and where young people dream of becoming science and technology leaders." The FIRST Robotics Competition is known as a varsity sport for the mind. Under a set of rules, time limitations, and monetary limitations, a team of high school students build a robot using professional hardware and software each year to complete a yearly challenge. The team members are tasked with raising funds, creating a brand for their team, and building and programming a robot to complete certain prescribed tasks. Along the way, the students learn many valuable business skills such as marketing, networking, and teamwork.
+</div>
+</div>
+<a class="twitter-timeline" href="https://twitter.com/team4226" data-widget-id="554000538442813440">Tweets by @team4226</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<div class="fb-follow" data-href="https://www.facebook.com/pages/Albany-Robotics/838103222894532" data-colorscheme="light" data-layout="standard" data-show-faces="true"></div></div>
+
+</body>
+</html>
