@@ -13,8 +13,9 @@
   var password = prompt("This page is restricted. Please enter the password to proceed");
   if(password != "Albany4226"){
     window.open('http://www.team4226.github.io', '_blank');
+    window.close();
   }
-  else{
+  else if(password == "Albany4226"){
     confirm("Password accecpted");
   }
 </script>
