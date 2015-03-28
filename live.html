@@ -9,6 +9,15 @@
 <link rel="stylesheet" type="text/css" href="robotics.css"/>
 <link rel="icon" type="image/png" href="images/gear.png"/>
 </head>
+<script>
+  var password = prompt("This page is restricted. Please enter the password to proceed");
+  if(password != "Albany4226"){
+    window.close();
+  }
+  else{
+    confirm("Password accecpted");
+  }
+</script>
 <body onload="init();" class="preload">
 <div id="title">
 <div id="name">Huskie Robotics</div>
