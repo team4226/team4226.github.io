@@ -1,9 +1,8 @@
 l=Array();
-l[0]="images/medtronicGear.png";
+l[0]="images/mnctcGear.png";
 l[1]="images/midsotaGear.jpg";
-l[2]="images/amtGear.jpg";
-l[3]="images/jayceesGear.jpg";
-l[4]="images/jcpGear.jpg";
+l[2]="images/jayceesGear.jpg";
+l[3]="images/frcGear.jpg";
 j=0;
 var gi;
 var gd;
