@@ -1,15 +1,12 @@
 function login(){
-	password = prompt("Please enter your unique page code:");
-	if(password=="933akY]KB5CCtY_t3!"){
-		confirm("Thank you! Enjoy the stream.");
-	}
-	else if(password!="3akY]KB5CCtY_t3!"){
-		confirm("This page is protected by a passcode!");
-		window.close();
+	var password = prompt("Please enter your team code!");
+	if(password=="Albany4226"||"XE4Y7AX"||"Robotics4226"||"JoeIsLife"){
+		 confirm("Password accecpted");
 	}
 	else{
-		confirm("System error!");
-		window.close();
+		 confirm("Password rejected");
+		 Window.close();
+		 Window.open("http://team4226.github.io");
 	}
 	}
 	
