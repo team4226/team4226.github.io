@@ -10,36 +10,65 @@
 <link rel="stylesheet" type="text/css" href="robotics.css"/>
 <link rel="icon" type="image/png" href="images/gear.png"/>
 </head>
-<body onload="init();">
+<body onload="init();" class="preload">
 <div id="title">
-<div id="name">Huskie Robotics</div>
-<a href="/robo/index.html"><img id="teamLogo" src="images/flatLogo.png" /></a>
-<div id="mainMenu">
-<span id="leftMenu">
-<span class="menuItems itemsLeft"><a class="noUnderline" href="aboutfirst.html">About&nbsp;<i>FIRST</i></a></span>
-<span class="menuItems itemsLeft"><a class="noUnderline" href="aboutus.html">About&nbsp;Us</a></span>
-</span>
-<span id="number">Team 4226</span>
-<span id="rightMenu">
-<span class="menuItems itemsRight"><a class="noUnderline" href="gallery.html">Gallery</a></span>
-<span class="menuItems itemsRight"><a class="noUnderline" href="sponsors.html">Our&nbsp;Sponsors</a></span>
-</span>
+<div id="name">Husky Robotics</div>
+<a href="/index.html"><img id="teamLogo" src="images/flatLogo.png" /></a>
+<center>
 </div>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #BA55D3;
+ 
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #808080;
+}
+</style>
+</head>
+<body>
+    </center>
+<center>
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="aboutus.html">About Us</a></li>
+  <li><a href="members.html">Members</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li><a href="sponsors.html">Sponsors</a></li>
+  <li><a href="live.html">Live Area</a></li>
+</ul>
+</center>
 </div>
-
+<hr>
+<center><marquee scrollamount="17"><font face="Arial" size="+4">New game announced! <b>FIRST STEAMWORKS!</b> January 7, 2017 </font></marquee></center>
+<br>
 <div id="content">
 <div id="gears">
 <div id="gear1" onclick="gearMove(this);" class="gearDiv">
-<img class="gearImg" src="images/frcGear.png"/>
+<img class="gearImg" id="sponsorGear" src="images/frcGear.png" onload="gearMove(s);"/>
 </div>
 <div onclick="gearMove(this);" id="gear2" class="gearDiv">
-<img class="gearImg" id="sponsorGear" src="images/jcpGear.jpg" onload="t=setTimeout(sponsorSwitch, 5000);"/>
+<img class="gearImg" id="sponsorGear" src="images/mnctcGear.png"/>
 </div>
 <div id="gear3" class="gearDiv">
-<a href="http://twitter.com/team4226"><img class="gearImg" src="images/twitterGear.png" /></a>
+<a href="http://twitter.com/team4226"><img class="gearImg" src="images/jayceesGear.png" /></a>
 </div>
 <div id="gear4" onclick="gearMove(this);" class="gearDiv">
-<img class="gearImg" src="images/teamGear.png"/>
+<img class="gearImg" src="images/newgear.png"/>
 </div>
 
 <div id="text">
@@ -51,8 +80,10 @@ Team 4226 is a FIRST Robotics team based in Albany, Minnesota whose rookie year 
 In the words of its founder, the goal of <i>FIRST</i> (For Inspiration and Recognition of Science and Technology) is "to transform our culture by creating a world where science and technology are celebrated and where young people dream of becoming science and technology leaders." The FIRST Robotics Competition is known as a varsity sport for the mind. Under a set of rules, time limitations, and monetary limitations, a team of high school students build a robot using professional hardware and software each year to complete a yearly challenge. The team members are tasked with raising funds, creating a brand for their team, and building and programming a robot to complete certain prescribed tasks. Along the way, the students learn many valuable business skills such as marketing, networking, and teamwork.
 </div>
 </div>
+<hr >
 <a class="twitter-timeline" href="https://twitter.com/team4226" data-widget-id="554000538442813440">Tweets by @team4226</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</div>
-
+<div class="fb-follow" data-href="https://www.facebook.com/pages/Albany-Robotics/838103222894532" data-colorscheme="light" data-layout="standard" data-show-faces="true"></div></div>
+<hr >
+<center><a href="http://www.albanytel.com/"><img src="/sponsors/amt.jpg"></a><a href="http://www.firstinspires.org/2017-frc-teaser"><img src="images/frcsteam.png" width="200" height="100"></a></center>
 </body>
 </html>
