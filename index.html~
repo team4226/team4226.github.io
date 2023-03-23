@@ -46,15 +46,14 @@ li a:hover {
 <ul>
   <li><a class="active" href="index.html">Home</a></li>
   <li><a href="aboutus.html">About Us</a></li>
-  <li><a href="members.html">Members</a></li>
-  <li><a href="gallery.html">Gallery</a></li>
   <li><a href="sponsors.html">Sponsors</a></li>
+  <li><a href="http://www.github.com/team4226">Github Cloud</a></li> 
   <li><a href="live.html">Live Area</a></li>
+  <li><marquee scrollamount="17"><font face="Arial">Welcome to the official website of FRC Team 4226</font></marquee></li>
 </ul>
 </center>
 </div>
 <hr>
-<center><marquee scrollamount="17"><font face="Arial" size="+4">New game announced! <b>FIRST STEAMWORKS!</b> January 7, 2017 </font></marquee></center>
 <br>
 <div id="content">
 <div id="gears">
